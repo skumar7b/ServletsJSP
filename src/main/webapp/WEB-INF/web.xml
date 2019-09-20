@@ -3,19 +3,15 @@
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-    <display-name>Archetype Created Web Application</display-name>
+    <display-name>Created Web Application</display-name>
     <servlet>
-        <servlet-name>todo</servlet-name>
-        <servlet-class>fr.iamterror.todo.Todo</servlet-class>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.servlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>todo</servlet-name>
-        <url-pattern>/todo/affiche</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>todo</servlet-name>
-        <url-pattern>/todo/ajoute</url-pattern>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServletPath</url-pattern>
     </servlet-mapping>
     
 </web-app>
